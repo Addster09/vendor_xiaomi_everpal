@@ -17174,7 +17174,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcodec2_mtk_vdec.so",
             ],
             shared_libs: [
-                "libformatter",
+                "libformatter-v31",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "libui",
@@ -17222,7 +17222,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcodec2_mtk_venc.so",
             ],
             shared_libs: [
-                "libformatter",
+                "libformatter-v31",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "libui",
@@ -17918,7 +17918,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libformatter",
+    name: "libformatter-v31",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17926,7 +17926,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libformatter.so",
+                "proprietary/vendor/lib64/libformatter-v31.so",
             ],
             shared_libs: [
                 "libion_mtk",
@@ -19079,7 +19079,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmnl",
+    name: "libmnl-v30",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -19087,7 +19087,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmnl.so",
+                "proprietary/vendor/lib64/libmnl-v30.so",
             ],
             shared_libs: [
                 "libcutils",
@@ -25706,7 +25706,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/mnld",
             ],
             shared_libs: [
-                "libmnl",
+                "libmnl-v30",
                 "libcurl",
                 "libcutils",
                 "libnvram",
