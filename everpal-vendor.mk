@@ -124,6 +124,118 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/AudioParamOptions.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/BtInfo_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/BtInfo_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/CRSVolUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/CRSVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/CRSVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/CRSVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/CRSVol_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/CRSVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/CRSVol_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/HpImpedance_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/HpImpedance_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/MicInfo_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/MicInfo_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackACF_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackACF_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackDRC_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackHCF_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolAna_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolDigi_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Playback_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Playback_ParamTreeView.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Playback_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordDMNR_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordFIR_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordFIR_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVolUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVol_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RecordVol_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Record_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Record_ParamTreeView.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Record_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVolUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVol_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/RingbackVol_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SmartPa_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SmartPa_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SoundEnhancement_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SoundEnhancement_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechDMNR_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechEchoRef_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechGeneral_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechMagiClarity_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechNetwork_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVolUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVol_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/SpeechVol_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Speech_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Speech_ParamTreeView.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Speech_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBCall_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBCall_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBDevice_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/USBDevice_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Ultrasound_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Ultrasound_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Ultrasound_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Ultrasound_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/UplinkConfiguration_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPDMNR_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPGeneral_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVolUI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVol_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPVol_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIP_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIP_ParamTreeView.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIP_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2DMNR_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2General_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2General_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2UI_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2_ParamTreeView.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoIPv2_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWDspAec_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWDspAec_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWEngineFeature_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWEngineFeature_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWHwVad_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWHwVad_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWMicSetting_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWMicSetting_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWVoiceCommand_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VoWVoiceCommand_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMapUL_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMap_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_AudioParam.xml \
+    vendor/xiaomi/everpal/proprietary/vendor/etc/audio_param_global/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_global/Volume_ParamUnitDesc.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/aurisys_param/sixth_param.txt:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/sixth_param.txt \
     vendor/xiaomi/everpal/proprietary/vendor/etc/aurisys_param/sixth_param_voip.txt:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/sixth_param_voip.txt \
     vendor/xiaomi/everpal/proprietary/vendor/etc/camera/LDC_packdata_xiaomi.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi.dat \
@@ -168,7 +280,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/xiaomi/everpal/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
-    vendor/xiaomi/everpal/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/xiaomi/everpal/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/xiaomi/everpal/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/everpal/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
@@ -288,46 +399,13 @@ PRODUCT_PACKAGES += \
     libnvram \
     libnvram_sec \
     libmtk_drvb \
-    audio.primary.mt6833 \
-    audio.r_submix.mt6833 \
-    sound_trigger.primary.default \
-    libMtkSpeechEnh \
-    lib_iir \
-    lib_speech_enh \
-    libalsautils.mt6833 \
-    libaudio_param_parser-vnd \
-    libaudiocompensationfilter_vendor \
-    libaudiocompensationfilterc \
-    libaudiocomponentengine_vendor \
-    libaudiocomponentenginec \
-    libaudiocustparam_vendor \
-    libaudiodcrflt_vendor \
-    libaudiofmtconv \
-    libaudioloudc \
-    libaudioprimarydevicehalifclient \
-    libaudiotoolkit_vendor \
-    libaurisysdemo \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
-    libcvsd_mtk \
     libfgauge_gm30 \
-    libmsbc_mtk \
-    libmtklimiter_vendor \
-    libmtkshifter_vendor \
-    libnxp_extamp_intf \
-    librt_extamp_intf \
-    libsixth \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
     libvcodec_oal \
     libvcodec_utility \
     libvcodecdrv \
     libvcodecdrv_header_stub \
     libvpu5 \
     libvpud_vcodec \
-    vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     APUWareUtilsServer \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
@@ -339,12 +417,13 @@ PRODUCT_PACKAGES += \
     libMEOW_gift \
     libMEOW_qt \
     libMEOW_trace \
-    android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
+    audio.primary.mt6833 \
+    audio.r_submix.mt6833 \
     consumerir.common \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
@@ -353,6 +432,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.mtk_common \
     sensors.elliptic \
     sensors.mt6833 \
+    sound_trigger.primary.default \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
@@ -800,6 +880,7 @@ PRODUCT_PACKAGES += \
     libDefaultFpsActor \
     libFrameRecord \
     libJpgEncPipe \
+    libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
     libSQLiteModule_VER_ALL \
@@ -813,6 +894,8 @@ PRODUCT_PACKAGES += \
     libSonyIMX519PdafLibraryWrapper \
     libTEECommon \
     lib_bsscore \
+    lib_iir \
+    lib_speech_enh \
     lib_sr_models \
     libaaa_ltm \
     libaaa_ltmx \
@@ -828,6 +911,7 @@ PRODUCT_PACKAGES += \
     libalCFR \
     libalLDC \
     libalhLDC \
+    libalsautils.mt6833 \
     libanc_dc_base \
     libanc_dc_plugin_xiaomi_v2 \
     libapu_mdw \
@@ -838,8 +922,21 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_raw \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
+    libaudio_param_parser-vnd \
+    libaudiocompensationfilter_vendor \
+    libaudiocompensationfilterc \
+    libaudiocomponentengine_vendor \
+    libaudiocomponentenginec \
+    libaudiocustparam_vendor \
+    libaudiodcrflt_vendor \
+    libaudiofmtconv \
+    libaudioloudc \
+    libaudioprimarydevicehalifclient \
+    libaudiotoolkit_vendor \
+    libaurisysdemo \
+    libbessound_hd_mtk_vendor \
+    libblisrc32_vendor \
     libbluetooth_mtk \
-    libbluetooth_mtk_pure \
     libbt-vendor \
     libc++_shared \
     libcam.afhal \
@@ -921,6 +1018,7 @@ PRODUCT_PACKAGES += \
     libcomposer_ext \
     libconnfem \
     libcustom_nvram \
+    libcvsd_mtk \
     libdip_drv \
     libdip_imem \
     libdip_postproc \
@@ -974,10 +1072,12 @@ PRODUCT_PACKAGES += \
     libmialgoengine \
     libmibokeh_mt6873 \
     libmipc \
+    libmisoundcrossfade \
     libmml \
     libmnetlink_v104 \
     libmnl-v30 \
     libmpbase \
+    libmsbc_mtk \
     libmsnr \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
@@ -1050,10 +1150,12 @@ PRODUCT_PACKAGES += \
     libmtkconfigutils \
     libmtkhardware_legacy \
     libmtkisp_metadata \
+    libmtklimiter_vendor \
     libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
     libmtkrilutils \
+    libmtkshifter_vendor \
     libmtksysutils \
     libmtktinyxml \
     libmtkutils \
@@ -1063,6 +1165,7 @@ PRODUCT_PACKAGES += \
     libneuropilot_hal_utils \
     libnir_neon_driver_ndk.mtk.vndk \
     libnotifyaudiohal \
+    libnxp_extamp_intf \
     liboemcrypto \
     libpq_cust_base \
     libpqframework \
@@ -1070,8 +1173,12 @@ PRODUCT_PACKAGES += \
     libratconfig \
     librgbwlightsensor \
     librilfusion \
+    librt_extamp_intf \
     libsdk_sr \
     libsensor_custom \
+    libsixth \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
     libsysenv \
@@ -1108,6 +1215,7 @@ PRODUCT_PACKAGES += \
     s5kjn1sunny_mipi_raw_IdxMgr \
     s5kjn1sunny_mipi_raw_tuning \
     vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -1162,7 +1270,6 @@ PRODUCT_PACKAGES += \
     fuelgauged \
     fuelgauged_nvram \
     gsm0710muxd \
-    android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.gnss-service.mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek \
@@ -1186,7 +1293,6 @@ PRODUCT_PACKAGES += \
     nvram_daemon \
     teei_daemon \
     vpud \
-    wlan_assistant \
     wmt_launcher \
     wmt_loader
 
