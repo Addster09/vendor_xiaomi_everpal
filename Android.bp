@@ -25730,36 +25730,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vpud",
-    owner: "xiaomi",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/vpud",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libvpud_vcodec",
-                "libvcodec_utility",
-                "liblog",
-                "libion",
-                "libaedv",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "wmt_launcher",
     owner: "xiaomi",
     target: {
